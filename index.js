@@ -58,17 +58,78 @@
 // }
 // console.log(problem(5));
 
-function correct(string) {
-  const corrections = {
-    5: "S",
-    0: "O",
-    1: "I",
-  };
-  return string
-    .split("")
-    .map((char) =>
-      corrections.hasOwnProperty(char) ? corrections[char] : char
-    )
-    .join("");
+// function correct(string) {
+//   const corrections = {
+//     5: "S",
+//     0: "O",
+//     1: "I",
+//   };
+//   return string
+//     .split("")
+//     .map((char) =>
+//       corrections.hasOwnProperty(char) ? corrections[char] : char
+//     )
+//     .join("");
+// }
+// console.log(correct("L0ND0N"));
+
+// function uzbekTeam(yil) {
+//   console.log(
+//     yil === "2022"
+//       ? "U-23 jamoasi chempion bolmaydi"
+//       : "U-23 jamoasi chempion boladi"
+//   );
+// }
+
+// uzbekTeam("2022");
+
+// var fruits = ["Banana", "Orange", "Apple", "Mango", "olma"];
+
+// function deleteMove(name) {
+//   return fruits.filter((value) => value !== name);
+// }
+// console.log(deleteMove("Orange"));
+
+// let menu = {
+//   width: 200,
+//   height: 300,
+//   title: "My menu",
+// };
+
+// for (let keys in menu) {
+//   if (typeof menu[keys] == "number") {
+//     console.log(2 * menu[keys]);
+//   } else console.log("fail");
+// }
+
+// function inArray(a1, a2) {
+//   return a1.filter((value) => a2.some((vl) => vl.includes(value))).sort();
+// }
+// console.log(
+//   inArray(
+//     ["xyz", "live", "strong"],
+//     ["lively", "alive", "harp", "sharp", "armstrong"]
+//   )
+// );
+
+// function getGrade(s1, s2, s3) {
+//   let res = (s1 + s2 + s3) / 3;
+//   return res < 60
+//     ? "F"
+//     : res < 70
+//     ? "D"
+//     : res < 80
+//     ? "C"
+//     : res < 90
+//     ? "B"
+//     : "A";
+// }
+// console.log(getGrade(95, 90, 93));
+
+function name(params) {
+  if (params.length === 0) {
+    return 0.0;
+  }
+  var a = 0;
+  for (let i = 0; i < params.length; i++) {}
 }
-console.log(correct("L0ND0N"));
